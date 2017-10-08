@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="lib" path="F:/New Project/Testing/external-reference/cglib-nodep-3.2.4.jar"/>
+	<classpathentry kind="lib" path="F:/New Project/Testing/external-reference/client-combined-3.0.0-nodeps.jar"/>
+	<classpathentry kind="lib" path="F:/New Project/Testing/external-reference/commons-codec-1.10.jar"/>
+	<classpathentry kind="lib" path="F:/New Project/Testing/external-reference/commons-collections4-4.1.jar"/>
+	<classpathentry kind="lib" path="F:/New Project/Testing/external-reference/commons-exec-1.3.jar"/>
+	<classpathentry kind="lib" path="F:/New Project/Testing/external-reference/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="F:/New Project/Testing/external-reference/curvesapi-1.04.jar"/>
+	<classpathentry kind="lib" path="F:/New Project/Testing/external-reference/gson-2.3.1.jar"/>
+	<classpathentry kind="lib" path="F:/New Project/Testing/external-reference/guava-19.0.jar"/>
+	<classpathentry kind="lib" path="F:/New Project/Testing/external-reference/hamcrest-core-1.3.jar"/>
+	<classpathentry kind="lib" path="F:/New Project/Testing/external-reference/hamcrest-library-1.3.jar"/>
+	<classpathentry kind="lib" path="F:/New Project/Testing/external-reference/httpclient-4.5.2.jar"/>
+	<classpathentry kind="lib" path="F:/New Project/Testing/external-reference/httpcore-4.4.4.jar"/>
+	<classpathentry kind="lib" path="F:/New Project/Testing/external-reference/httpmime-4.5.2.jar"/>
+	<classpathentry kind="lib" path="F:/New Project/Testing/external-reference/jna-4.1.0.jar"/>
+	<classpathentry kind="lib" path="F:/New Project/Testing/external-reference/jna-platform-4.1.0.jar"/>
+	<classpathentry kind="lib" path="F:/New Project/Testing/external-reference/junit-4.12.jar"/>
+	<classpathentry kind="lib" path="F:/New Project/Testing/external-reference/netty-3.5.7.Final.jar"/>
+	<classpathentry kind="lib" path="F:/New Project/Testing/external-reference/phantomjsdriver-1.3.0.jar"/>
+	<classpathentry kind="lib" path="F:/New Project/Testing/external-reference/poi-3.16.jar"/>
+	<classpathentry kind="lib" path="F:/New Project/Testing/external-reference/poi-examples-3.16.jar"/>
+	<classpathentry kind="lib" path="F:/New Project/Testing/external-reference/poi-excelant-3.16.jar"/>
+	<classpathentry kind="lib" path="F:/New Project/Testing/external-reference/poi-ooxml-3.16.jar"/>
+	<classpathentry kind="lib" path="F:/New Project/Testing/external-reference/poi-ooxml-schemas-3.16.jar"/>
+	<classpathentry kind="lib" path="F:/New Project/Testing/external-reference/poi-scratchpad-3.16.jar"/>
+	<classpathentry kind="lib" path="F:/New Project/Testing/external-reference/xmlbeans-2.6.0.jar"/>
+	<classpathentry kind="con" path="org.testng.TESTNG_CONTAINER"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
