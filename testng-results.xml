@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="139654" started-at="2017-10-08T12:20:56Z" finished-at="2017-10-08T12:23:16Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="139654" started-at="2017-10-08T12:20:56Z" finished-at="2017-10-08T12:23:16Z">
+      <class name="com.testing.test.config.TestSearchFlights25">
+        <test-method status="PASS" signature="preTest()[pri:0, instance:com.testing.test.config.TestSearchFlights25@20e2cbe0]" name="preTest" is-config="true" duration-ms="52636" started-at="2017-10-08T17:50:56Z" finished-at="2017-10-08T17:51:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preTest -->
+        <test-method status="FAIL" signature="testLoginErrorTC101()[pri:0, instance:com.testing.test.config.TestSearchFlights25@20e2cbe0]" name="testLoginErrorTC101" duration-ms="80656" started-at="2017-10-08T17:51:49Z" finished-at="2017-10-08T17:53:10Z">
+          <exception class="org.openqa.selenium.InvalidSelectorException">
+            <message>
+              <![CDATA[The given selector //span[contains(text(),'Air Asia']) is either invalid or does not result in a WebElement. The following error occurred:
+InvalidSelectorError: Unable to locate an element with the xpath expression //span[contains(text(),'Air Asia']) because of the following error:
+SyntaxError: The expression is not a legal expression.
+Command duration or timeout: 5.34 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: 'unknown', revision: '350cf60', time: '2016-10-13 10:43:56 -0700'
+System info: host: 'Vikas-VAIO', ip: '192.168.1.8', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=46.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 3c283d9e-75a1-4d2b-8263-5f9fb3716ecb
+*** Element info: {Using=xpath, value=//span[contains(text(),'Air Asia'])}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.InvalidSelectorException: The given selector //span[contains(text(),'Air Asia']) is either invalid or does not result in a WebElement. The following error occurred:
+InvalidSelectorError: Unable to locate an element with the xpath expression //span[contains(text(),'Air Asia']) because of the following error:
+SyntaxError: The expression is not a legal expression.
+Command duration or timeout: 5.34 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: 'unknown', revision: '350cf60', time: '2016-10-13 10:43:56 -0700'
+System info: host: 'Vikas-VAIO', ip: '192.168.1.8', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=46.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 3c283d9e-75a1-4d2b-8263-5f9fb3716ecb
+*** Element info: {Using=xpath, value=//span[contains(text(),'Air Asia'])}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:216)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:168)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:635)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:473)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:360)
+	at com.testing.ui.SearchPage.getAirAsiacheckbox(SearchPage.java:34)
+	at com.testing.test.config.TestSearchFlights25.testLoginErrorTC101(TestSearchFlights25.java:51)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+Caused by: org.openqa.selenium.InvalidSelectorException: The given selector //span[contains(text(),'Air Asia']) is either invalid or does not result in a WebElement. The following error occurred:
+InvalidSelectorError: Unable to locate an element with the xpath expression //span[contains(text(),'Air Asia']) because of the following error:
+SyntaxError: The expression is not a legal expression.
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: 'unknown', revision: '350cf60', time: '2016-10-13 10:43:56 -0700'
+System info: host: 'Vikas-VAIO', ip: '192.168.1.8', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'
+Driver info: driver.version: unknown
+	at <anonymous class>.FirefoxDriver.annotateInvalidSelectorError_(file:///C:/Users/Vikas/AppData/Local/Temp/anonymous5053538924003599400webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:11161)
+	at <anonymous class>.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/Vikas/AppData/Local/Temp/anonymous5053538924003599400webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:11192)
+	at <anonymous class>.FirefoxDriver.prototype.findElement(file:///C:/Users/Vikas/AppData/Local/Temp/anonymous5053538924003599400webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:11196)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_/h(file:///C:/Users/Vikas/AppData/Local/Temp/anonymous5053538924003599400webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12705)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_(file:///C:/Users/Vikas/AppData/Local/Temp/anonymous5053538924003599400webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12710)
+	at <anonymous class>.DelayedCommand.prototype.execute/<(file:///C:/Users/Vikas/AppData/Local/Temp/anonymous5053538924003599400webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12652)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.InvalidSelectorException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginErrorTC101 -->
+      </class> <!-- com.testing.test.config.TestSearchFlights25 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
